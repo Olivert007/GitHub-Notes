@@ -4,18 +4,18 @@
 
 ###### VS Code
 
-* [VS Code Themes](http://vscodethemes.com/)  http://vscodethemes.com/
+* [VS Code Themes](http://vscodethemes.com/)  
 
-* [炫酷的VS Code毛玻璃效果](https://juejin.cn/post/6844903846871842823) https://juejin.cn/post/6844903846871842823
+* [炫酷的VS Code毛玻璃效果](https://juejin.cn/post/6844903846871842823) 
 
-* [教你打造一款颜值逆天的 VS Code](https://toutiao.io/posts/7w5ixl/preview) https://toutiao.io/posts/7w5ixl/preview
+* [教你打造一款颜值逆天的 VS Code](https://toutiao.io/posts/7w5ixl/preview) 
 
-* [Visual Studio Code默认快捷键大全](https://www.jianshu.com/p/532231d3014d) https://www.jianshu.com/p/532231d3014d
+* [Visual Studio Code默认快捷键大全](https://www.jianshu.com/p/532231d3014d) 
 
-* [21 个VSCode 快捷键，让代码更快，更有趣](https://segmentfault.com/a/1190000019821154)  https://segmentfault.com/a/1190000019821154 ——适合快速上手
+* [21 个VSCode 快捷键，让代码更快，更有趣](https://segmentfault.com/a/1190000019821154)  ——适合快速上手
 
-* [VS Code中对Python程序进行断点调试/Debug ](https://blog.csdn.net/SeaBiscuitUncle/article/details/103917401) https://blog.csdn.net/SeaBiscuitUncle/article/details/103917401
-* [修改 Visual Studio Code workspace颜色](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)  https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock  --适用打开多个`workspace`场景
+* [VS Code中对Python程序进行断点调试/Debug ](https://blog.csdn.net/SeaBiscuitUncle/article/details/103917401) 
+* [修改 Visual Studio Code workspace颜色](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)  --适用打开多个`workspace`场景
 
 ###### GDB
 
@@ -53,10 +53,19 @@
 ###### git
 
 - [git介绍](https://en.wikipedia.org/wiki/Git) 
+
 - [git 提交pr](https://www.atlassian.com/git/tutorials)
+
 - [git 官网](https://git-scm.com/book/zh/v2)
+
   - [PDF版本](https://github.com/progit/progit2-zh/releases/download/2.1.55/progit_v2.1.55.pdf)
+
+- [GIthub 官方文档](https://docs.github.com/cn)
+
+  
+
 - [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)  --记录的比较实用 
+
 - 奇奇怪怪的技能
   - [如何管理git项目中的密码等机密文件 -- Git-Secret](https://zhuanlan.zhihu.com/p/445987782)
 
@@ -83,28 +92,6 @@
 
 
 ## TVM路线
-
-### Buff学习路线
-
-[深度学习编译器及TVM 介绍](https://zhuanlan.zhihu.com/p/358585143)
-
-[TVM中的scheduler](https://zhuanlan.zhihu.com/p/360385060)
-
-[基于ONNX模型结构了解TVM的前端](https://zhuanlan.zhihu.com/p/365800737)
-
-[解析TVM算子](https://zhuanlan.zhihu.com/p/368940120)
-
-[TVM Relay以及Pass简介](https://zhuanlan.zhihu.com/p/374914252)
-
-[TVM的编译流程详解](https://zhuanlan.zhihu.com/p/376863322)
-
-[万字长文入门TVM Pass](https://zhuanlan.zhihu.com/p/378739411)
-
-[TVM的算符融合以及如何使用TVM Pass Infra自定义Pass](https://zhuanlan.zhihu.com/p/380630801)
-
-[TVM的CodeGen流程](https://zhuanlan.zhihu.com/p/386942253)
-
-### 项目组学习路线
 
 #### TVM架构与模型编译流程
 
