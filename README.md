@@ -110,62 +110,22 @@
 
 #### TVM Runtime
 
-- [Design and Architecture](https://tvm.apache.org/docs/dev/index.html)
-- [TVM Runtime System](https://tvm.apache.org/docs/dev/runtime.html)
-- [Introduction to Module Serialization](https://tvm.apache.org/docs/dev/introduction_to_module_serialization.html)
-
 #### TVM Runtime System Foundation
 
 #### Relay图优化 Pass
 
-- [Relay: A New IR for Machine Learning Frameworks](https://arxiv.org/pdf/1810.00952.pdf)
-- [Introduction to Relay IR](https://tvm.apache.org/docs/dev/relay_intro.html)
-- [Expressions in Relay](https://tvm.apache.org/docs/langref/relay_expr.html#closures)
-- [TVM之设计模式解读--visitor模式](https://zhuanlan.zhihu.com/p/341334406)
-
 #### TVM TE 与 TVM Schedule原语
 
-- [Use Tensor Expression Debug Display (TEDD) for Visualization](https://tvm.apache.org/docs/tutorials/language/tedd.html)
-
-##### Primitives
-
-- [Schedule Primitives in TVM](https://tvm.apache.org/docs/tutorials/language/schedule_primitives.html)
-- [Reduction](https://tvm.apache.org/docs/tutorials/language/reduction.html)
-- [schedule详细举例](https://zhuanlan.zhihu.com/p/94846767)
-
-##### A Operational Model of Schedules inTensor Expression
-
-- [Document](https://docs.google.com/document/d/1nmz00_n4Ju-SpYN0QFl3abTHTlR_P0dRyo5zsWC0Q1k/edit)
-- Talk Video 
-- [Slides](https://tvmconf.org/slides/2019/E03-Yuan-Lin-Yongfeng-Gu.pdf)
-
 #### TVM Pass 
-
-- [Pass Infrastructure](https://tvm.apache.org/docs/dev/pass_infra.html#pass-infra)
-- [TVM代码走读](https://www.zhihu.com/column/c_1254058636869603328)
-- [FusionStitching: Boosting Memory Intensive Computations for Deep Learning Workloads](https://arxiv.org/abs/2009.10924)
 
 #### TVM下一代IR——Tensor IR
 
 #### TVM Code Generation(LLVM)
-你这个问题我不懂，我外行信口开河一下，如果有误导请多多包涵哈。我调试疑难问题的时候，会用动态追踪技术看详细的调用情况，比如不涉及底层的可以试试python内置的trace，涉及底层的用Linux的strace。有了详细的日志之后，配合一些grep的技巧，可能可以找出等待的原因。
-
-动态追踪技术讲得最好的文章是章亦春的漫谈系列：https://blog.openresty.com.cn/cn/dynamic-tracing/
-要注意用了动态追踪技术后，必然会导致程序变慢，所以本身就会对调试性能问题带来一定的干扰，有时候这个干扰是成比例的，不会改变程序行为，但是有时候程序本身有竞争条件的bug的时候，在动态追踪的情况下可能反而就重现不了了，或者重现几率降低了
-为了获得类似动态追踪技术的好处，又避免性能的损耗和执行上的微扰，Google 开发了LLVM/XRay，在编译的时候自动插入追踪代码。因为要重新编译，所以XRay用起来比较麻烦，没有strace这类技术这么普及。除非是整天跟底层打交道的，不然我也不推荐XRay，只是顺便提一下。
-
-https://www.llvm.org/docs/XRay.html
-xray不是编译的时候插入追踪代码，是插入nop，运行的时候按需要动态替换nop指令。。。
-
 #### TVM 开源社区代码规范
 
 #### AutoTVM原理
 
-- [Learning to Optimize Tensor Programs](https://arxiv.org/pdf/1805.08166.pdf)
-
 #### Auto Scheduler原理（Ansor）
-
-- [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/conference/osdi20/presentation/zheng)
 
 #### TVM异构原理实现
 
@@ -176,21 +136,9 @@ xray不是编译的时候插入追踪代码，是插入nop，运行的时候按�
 
 #### 量化与HAGO
 
-#### AdaQuant量化方法
-
-- [AdaQuant：改进训练后神经网络量化：分层校准和整数编程](https://mp.weixin.qq.com/s?__biz=MzUxNDY2MDc4Ng==&mid=2247485303&idx=1&sn=2519339e7d58e26b307bcaf5e3422e65&chksm=f943c7aace344ebc7c8c3de8c962adaaf31b19bb7370018059cae88f6fd966e94932e8d70065&mpshare=1&scene=1&srcid=0327ruF0PjBp6GnqzK413Nqr&sharer_sharetime=1617589430404&sharer_shareid=74872d73ab7efab76a80798b1aaefe03&exportkey=AXmjijmW%2FlnJ8SoU%2BCyYRiw%3D&pass_ticket=RlJqwcjZS98Tr0OlzkUQO4BlWQXXz9enjHNjdd3CGvt6uupsszfaFCFp3pHWGsyt&wx_header=0#rd)
-
-#### GEMM与Convlution常用优化策略
-**GEMM优化**
-- [基于how-to-optimize-gemm初探矩阵乘法优化](https://zhuanlan.zhihu.com/p/272208879)
-- [高性能计算简介（二）：矩阵分块，性能分析](https://zhuanlan.zhihu.com/p/161684949)
-- [TVM 算子集成到tensorflow中(TVMDSOop)](https://www.sxsbj.com/index.php/archives/3/)
 #### MLIR
 
 #### Polyhedral与自动化
-
-- [PLuTo: A Practical and Fully Automatic Polyhedral Program Optimization System](https://www.ece.lsu.edu/jxr/Publications-pdf/tr70-07.pdf)
-- [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](https://arxiv.org/abs/1804.10694)
 
 #### TensorCore编程
 
@@ -273,22 +221,6 @@ xray不是编译的时候插入追踪代码，是插入nop，运行的时候按�
 - [Python 程序如何高效地调试](https://www.zhihu.com/question/21572891)
 
 ## 阅读论文
-
-[Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/abs/1604.06174)
-
-[Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/conference/osdi20/presentation/zheng)
-
-[Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks](https://www.usenix.org/system/files/osdi20-ma.pdf)
-
-[Cambricon: An Instruction Set Architecture for Neural Networks](https://seal.ece.ucsb.edu/sites/default/files/publications/07551409.pdf)
-
-Floridi, L., & Chiriatti, M. (2020). GPT-3: Its nature, scope, limits, and consequences. Minds and Machines, 30(4), 681-694.
-J. Fang, H. Sips, L. Zhang, C. Xu, Y. Che, and A. L. Varbanescu, “Test-driving intel xeon phi,” in Proceedings of the 5th ACM/SPEC international conference on Performance engineering. ACM, 2014, pp. 137–148.
-J. D. McCalpin, “Stream: Sustainable memory bandwidth in high performance computers,” University of Virginia, Charlottesville, Virginia, Tech. Rep., 1991-2007, a continually updated technical report. [Online]. Available: http://www.cs.virginia.edu/stream/
-G. Juckeland, S. Borner, M. Kluge, S. Kolling, W. E. Nagel, S. Pflu ̈ger, H. Roding, S. Seidl, T. William, and R. Wloch, “Benchit-performance measurements and comparison for scientific applications.” in PARCO, 2003, pp. 501–508.
-https://docs.nersc.gov/performance/arithmetic_intensity/ 
- Williams, S., Waterman, A., & Patterson, D. (2009). Roofline: an insightful visual performance model for multicore architectures. Communications of the ACM, 52(4), 65-76.
-Lin, J., Xu, Z., Cai, L., Nukada, A., & Matsuoka, S. (2018). Evaluating the SW26010 many-core processor with a micro-benchmark suite for performance optimizations. Parallel Computing, 77, 128-143.
 
 ## 开源项目
 
