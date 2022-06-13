@@ -1,26 +1,19 @@
-[计算机技术.md](https://uploader.shimo.im/f/QVZHUU3pjeZ4pGTC.md?fileGuid=yKgKTQ6TjRGrJ39R)
-
-## 工具路线
+##### 工具路线
 
 ###### VS Code
 
-* [VS Code Themes](http://vscodethemes.com/)  
-
-* [炫酷的VS Code毛玻璃效果](https://juejin.cn/post/6844903846871842823) 
-
-* [教你打造一款颜值逆天的 VS Code](https://toutiao.io/posts/7w5ixl/preview) 
-
-* [Visual Studio Code默认快捷键大全](https://www.jianshu.com/p/532231d3014d) 
-
+* [VS Code Themes](http://vscodethemes.com/)
+* [炫酷的VS Code毛玻璃效果](https://juejin.cn/post/6844903846871842823)
+* [教你打造一款颜值逆天的 VS Code](https://toutiao.io/posts/7w5ixl/preview)
+* [Visual Studio Code默认快捷键大全](https://www.jianshu.com/p/532231d3014d)
 * [21 个VSCode 快捷键，让代码更快，更有趣](https://segmentfault.com/a/1190000019821154)  ——适合快速上手
-
-* [VS Code中对Python程序进行断点调试/Debug ](https://blog.csdn.net/SeaBiscuitUncle/article/details/103917401) 
-* [修改 Visual Studio Code workspace颜色](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)  --适用打开多个`workspace`场景
+* [VS Code中对Python程序进行断点调试/Debug ](https://blog.csdn.net/SeaBiscuitUncle/article/details/103917401)
+* [修改 Visual Studio Code workspace颜色](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)  --适用打开多个 `workspace`场景
 
 ###### GDB
 
 * [Debugging with GDB](http://sourceware.org/gdb/current/onlinedocs/gdb.pdf) ——现阶段有中文翻译资源
-* [CUDA-GDB](https://developer.download.nvidia.cn/compute/DevZone/docs/html/C/doc/cuda-gdb.pdf) 
+* [CUDA-GDB](https://developer.download.nvidia.cn/compute/DevZone/docs/html/C/doc/cuda-gdb.pdf)
 
 ###### pdb
 
@@ -46,27 +39,21 @@
 - home、end（行头、行尾）
 - Word 单词、选单词、选整行
 - IDE 的自动补全
-- Top tips for <IDE-NAME>
+- Top tips for `<IDE-NAME>`
 
 ###### Docker
 
 ###### git
 
-- [git介绍](https://en.wikipedia.org/wiki/Git) 
-
+- [git介绍](https://en.wikipedia.org/wiki/Git)
 - [git 提交pr](https://www.atlassian.com/git/tutorials)
-
 - [git 官网](https://git-scm.com/book/zh/v2)
 
   - [PDF版本](https://github.com/progit/progit2-zh/releases/download/2.1.55/progit_v2.1.55.pdf)
-
 - [GIthub 官方文档](https://docs.github.com/cn)
-
-  
-
-- [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)  --记录的比较实用 
-
+- [血泪教训之请不要再轻视Git —— 我在工作中是如何使用 Git 的](https://zhuanlan.zhihu.com/p/250493093)  --记录的比较实用
 - 奇奇怪怪的技能
+
   - [如何管理git项目中的密码等机密文件 -- Git-Secret](https://zhuanlan.zhihu.com/p/445987782)
 
 ## 高性能计算库
@@ -85,11 +72,12 @@
 - [TTLG - An Efficient Tensor Transposition Library for GPUs](https://changwanhong.com/publication/IPDPS18.pdf)
 - [cuTT: A High-Performance Tensor Transpose Library for CUDA Compatible GPUs](https://arxiv.org/ftp/arxiv/papers/1705/1705.01598.pdf)
 - 
+
 **CUDA**
+
 1. 指令
-- [Volta/Turing GPU Architecture - I&II](https://zhuanlan.zhihu.com/p/85974212?utm_source=wechat_session&utm_medium=social&utm_oi=720506832975560704&utm_campaign=shareopn)
 
-
+- [Volta/Turing GPU Architecture - I&amp;II](https://zhuanlan.zhihu.com/p/85974212?utm_source=wechat_session&utm_medium=social&utm_oi=720506832975560704&utm_campaign=shareopn)
 
 ## TVM路线
 
@@ -103,11 +91,12 @@
 
 #### TVM TE 与 TVM Schedule原语
 
-#### TVM Pass 
+#### TVM Pass
 
 #### TVM下一代IR——Tensor IR
 
 #### TVM Code Generation(LLVM)
+
 #### TVM 开源社区代码规范
 
 #### AutoTVM原理
@@ -118,8 +107,7 @@
 
 #### Auto Relay
 
-
-#### LLVM IR与LLVM Backend 
+#### LLVM IR与LLVM Backend
 
 #### 量化与HAGO
 
@@ -138,7 +126,7 @@
 - [Dissecting the NVIDIA Volta GPU Architecture via Microbenchmarking](https://arxiv.org/abs/1804.06826)
 - [Parallel Thread Execution ISA Version 7.4](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html#abstract)
 - [Modeling Deep Learning Accelerator Enabled GPUs](https://arxiv.org/abs/1811.08309)
-- [NVIDIA Tensor Core Programmability, Performance & Precision](https://arxiv.org/abs/1803.04014)
+- [NVIDIA Tensor Core Programmability, Performance &amp; Precision](https://arxiv.org/abs/1803.04014)
 
 #### TVM IR pass以及多输入、出介绍
 
@@ -155,11 +143,7 @@
 
 - [Paddle wikis](https://github.com/PaddlePaddle/Paddle/search?q=caffe2&type=wikis)
 
-
-
 #### Tensofflow
-
-
 
 #### Pytorch
 
@@ -167,8 +151,6 @@
 - [动手学深度学习](https://zhuanlan.zhihu.com/p/88402699)
 
 #### ONNX
-
-
 
 ## 硬件架构
 
@@ -181,16 +163,11 @@
 #### 主流手机平台NPU软件栈
 
 1. 华为 HiAI Foundation
-
 2. 1. IR在线/离线模型转换
    2. 与已有推理引擎的集成
-
 3. 高通 NPE SDK
-
 4. 联发科 NeuroPilot
-
 5. 苹果 CoreML
-
 6. 三星 Samsung Neural SDK
 
 ### DPU
@@ -239,4 +216,3 @@ OpenPPL
   - 友好的文字格式
   - 保持基本的礼貌态度 --多用**“请”“谢谢”“麻烦了”“不客气”** 这些礼貌用语，看似简单地多说几个字，可以让沟通保持舒适愉快。
 - 等哈就
-
