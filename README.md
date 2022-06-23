@@ -142,6 +142,7 @@
 #### Caffe/Caffe2
 
 - [Paddle wikis](https://github.com/PaddlePaddle/Paddle/search?q=caffe2&type=wikis)
+- [Caffe2实际操作教程](https://blog.csdn.net/zziahgf?type=blog)
 
 #### Tensofflow
 
@@ -183,6 +184,10 @@
 ### Python
 
 - [Python 程序如何高效地调试](https://www.zhihu.com/question/21572891)
+- [Python 工匠](https://github.com/piglei/one-python-craftsman)
+
+## Code styles
+
 
 ## 阅读论文
 
